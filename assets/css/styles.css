@@ -17,11 +17,9 @@ html,body{
     margin-bottom: -20px; 
 }
 header{
-    background-color: #ffffff;
-    /*border-bottom: 2px solid;
-    border-bottom-color: #cccccc;*/
+    /*background-color: #ffffff;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     border-bottom-color: #cccccc;
 }
 table{
@@ -35,7 +33,7 @@ table{
     border-color: #cccccc;
     color: #ffffff;
     width: 250px;
-    height: 100px;
+    height: 80px;
     margin: auto;
 }
 nav{
@@ -55,13 +53,13 @@ a:visited{
 }
 a:hover {
     text-decoration: underline;
+    background-color:#4aaaa5;
 }
   
 a:active {
     text-decoration: underline;
 }
 .clearfix{
-    font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     font-size: 18px;
     overflow: auto;
@@ -77,23 +75,32 @@ a:active {
     background-color: #666666;
     color: #777777;
     text-align: center;
-    padding: 0px;
+    padding: 10px;
     height: 40px;
     position: fixed;
     left: 0;
     width: 100%;
     bottom:0;
 }
-.aboutme{
+.aboutme,.contact{
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 20px;
     margin: 10px;
-    border:20px;
-    border-color:red;
 }
 img{
     float: left;
     margin: 10px;
+}
+form{
+    margin: 20px;
+    font-size: 20px;
+}
+.button{
+ font-size: 14px;
+ background-color: #4aaaa5;   
+ height: 50px;
+ width: 80px;
+ border:none;
 }
