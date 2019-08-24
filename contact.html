@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Basic Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script type="text/javascript">
+    function myFunction()){
+        alert("The form was submitted.");
+    }
+    </script>
 </head>
     <header>
         <table>
             <tr>
                 <td>
                     <div id="name">
-                        pradnya hegde
+                        Pradnya Hegde
                     </div >
                 </td>
                 <td>
@@ -25,28 +30,26 @@
         </table>
     </header>
     <body>
-    <div class="flex-container">
+    <div class="flex-container-contact">
         <div class="clearfix">
-            <div class="contact"><strong>Contact</strong></div>
+            <div class="subheader"><strong>Contact</strong></div>
             <hr/>
-            <form action="*">
-                Name:<br>
+            <form>
+                <p>Name:</p>
                 <input type="text" name="visitor-name" value="John">
                 <br>
-                Email:<br>
+                <p>Email:</p>
                 <input type="email" name="visitor-email" value="John@gmail.com">
                 <br>
-                Message:<br>
+                <p>Message:</p>
                 <textarea type="text" name="visitor-message" rows="4" cols="50"></textarea>
                 <br>
-                <br>    
-                <button class="button">Submit</button>
+                <button class="button" onsubmit="Javascript:myFunction()">Submit</button>
             </form>
         </div> <!--clearfix-->
     </div> <!--flex-container-->
-    <footer class="footer">
-            Copyright @
-    </footer>
 </body>
-
+<footer class="footer">
+        Copyright @
+</footer>
 </html>
